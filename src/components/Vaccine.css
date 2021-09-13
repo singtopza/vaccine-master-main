@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vaccine {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.vaccine__item {
+  padding: 1rem;
+}
+
+.vac-img {
+  width: 20%;
+  height: auto;
+}
